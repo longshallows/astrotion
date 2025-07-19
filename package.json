@@ -50,5 +50,8 @@
     "symlink-dir": "^6.0.5",
     "typescript": "^5.8.3",
     "vitest": "^3.2.0"
+  },
+  "volta": {
+    "node": "22.15.0"
   }
 }
