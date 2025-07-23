@@ -13,8 +13,10 @@ export const REQUEST_TIMEOUT_MS = parseInt(
 // Notion
 export const NOTION_API_SECRET =
   import.meta.env.NOTION_API_SECRET || process.env.NOTION_API_SECRET || "";
-export const DATABASE_ID =
-  import.meta.env.DATABASE_ID || process.env.DATABASE_ID || "";
+export const ARTICLES_DB_ID =
+  import.meta.env.ARTICLES_DB_ID || process.env.ARTICLES_DB_ID || "";
+export const AUTHORS_DB_ID =
+  import.meta.env.AUTHORS_DB_ID || process.env.AUTHORS_DB_ID || "";
 
 export const CACHE_DIR = "node_modules/.astro/.astrotion";
 export const ASSET_DIR = "static";
